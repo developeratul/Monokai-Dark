@@ -1,0 +1,43 @@
+{
+  "name": "monokai-dark",
+  "displayName": "Monokai Dark",
+  "description": "A modern dark version of Monokai theme.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ratul-DevR",
+    "email": "azammmgol@gmail.com",
+    "url": "http://devr.netlify.app"
+  },
+  "publisher": "DevR",
+  "repository": {
+    "url": "https://github.com/ratul-devR/Monokai-Dark",
+    "type": "theme",
+    "directory": "/"
+  },
+  "keywords": [
+    "Theme",
+    "VS Code theme",
+    "Dark Theme",
+    "Monokai",
+    "DevR",
+    "Monokai Dark",
+    "Hacker Theme",
+    "Best Theme",
+    "@category:'themes'"
+  ],
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DevR",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DevR-color-theme.json"
+      }
+    ]
+  }
+}
