@@ -12,6 +12,22 @@ A modern dark version of Monokai theme.
 
 ![Monokai Dark](https://scontent.fdac7-1.fna.fbcdn.net/v/t1.6435-9/195058263_311851127273248_2418726390823910524_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=ufxyVv5TPq0AX84xXoo&tn=z8ecRVXqW5cJiD0O&_nc_ht=scontent.fdac7-1.fna&oh=d3530f092ff9515ee4bf2f935940f06c&oe=60E44E3E)
 
+Recommended for best experience
+
+```json
+"editor.fontFamily": "Jetbrains Mono, Fira Code, Cascadia Code, Operator mono, monospace"
+"editor.fontLigatures": true,
+"editor.smoothScrolling": true,
+"workbench.list.smoothScrolling": true,
+"editor.cursorSmoothCaretAnimation": true,
+"window.menuBarVisibility": "compact",
+"editor.minimap.maxColumn": 100,
+"editor.letterSpacing": 0.5,
+"editor.semanticHighlighting.enabled": false, // if you are using python set it to true
+"editor.renderWhitespace": "none",
+"workbench.sideBar.location": "right", // optional
+```
+
 If you have liked that theme, feel free to give me a positive review. It put's a smile on my face.
 
 If you are interested to contribute checkout my [Github](ratul-devR/Monokai-Dark) repo.
