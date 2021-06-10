@@ -32,20 +32,22 @@ If you wanna add italic variation to the fonts. recommended for the fonts which 
 
 ```json
 "editor.tokenColorCustomizations": {
-    {
-        "scope": [
-            "keyword",
-            "storage.type.js",
-            "storage.type.ts",
-            "comment.line.double-slash",
-            "constant.language.boolean",
-            "variable.language.this",
-            "entity.other.attribute-name"
-            ],
-        "settings": {
-            "fontStyle": "italic"
+    "textMateRules": [
+        {
+            "scope": [
+                "keyword",
+                "storage.type.js",
+                "storage.type.ts",
+                "comment.line.double-slash",
+                "constant.language.boolean",
+                "variable.language.this",
+                "entity.other.attribute-name"
+                ],
+            "settings": {
+                "fontStyle": "italic"
+            }
         }
-    }
+    ]
 }
 ```
 
