@@ -12,8 +12,7 @@
   "publisher": "DevR",
   "repository": {
     "url": "https://github.com/ratul-devR/Monokai-Dark",
-    "type": "theme",
-    "directory": "/"
+    "type": "theme"
   },
   "keywords": [
     "Theme",
@@ -34,7 +33,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "DevR",
+        "label": "Monokai Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/DevR-color-theme.json"
       }
