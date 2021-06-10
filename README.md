@@ -28,6 +28,27 @@ Recommended for best experience
 "workbench.sideBar.location": "right", // optional
 ```
 
+If you wanna add italic variation to the fonts. recommended for the fonts which has cursive italic style :-
+
+```json
+"editor.tokenColorCustomizations": {
+    {
+        "scope": [
+            "keyword",
+            "storage.type.js",
+            "storage.type.ts",
+            "comment.line.double-slash",
+            "constant.language.boolean",
+            "variable.language.this",
+            "entity.other.attribute-name"
+            ],
+        "settings": {
+            "fontStyle": "italic"
+        }
+    }
+}
+```
+
 If you have liked that theme, feel free to give me a positive review. It put's a smile on my face.
 
 If you are interested to contribute checkout my [Github](ratul-devR/Monokai-Dark) repo.

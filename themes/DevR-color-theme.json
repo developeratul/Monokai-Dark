@@ -1800,6 +1800,13 @@
       "settings": {
         "foreground": "#17d8a8"
       }
+    },
+
+    {
+      "scope": ["support.class", "entity.name.type.class"],
+      "settings": {
+        "foreground": "#AE81FF"
+      }
     }
   ],
 
